@@ -213,7 +213,7 @@ console.log(artists[2].bio);
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 console.log(artists[8].name);
 
-//Fix name
+
 artists[8].name="Vincent Van Gogh";
 console.log(artists[8].name);
 
@@ -290,7 +290,7 @@ function addArtist(array,id, name, years, genre, nationality, bio, paintings, wi
   return array;
   }
 
-console.log(addArtist(artists,20,'Rhea Manuel','2002 - 2020', 'Web Design', 'American', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.', '0', 'No Wikipedia'));
+console.log(addArtist(artists,20, 'Web Design', 'American', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.', '0', 'No Wikipedia'));
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
     (1) artists array 
